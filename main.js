@@ -1,4 +1,4 @@
-// main.js — CommonJS, 100% funcional con "logicjs"
+
 
 const logic = require("logicjs");
 
@@ -39,4 +39,5 @@ run(10, [Mentor], call("esMentor", Mentor, "spiderman"))
 console.log("\n--- Pares héroe–aliado ---");
 run(10, [Heroe, Aliado], call("esAliado", Heroe, Aliado))
   .forEach(r => console.log("Par:", r.get(Heroe), "-", r.get(Aliado)));
+
 
